@@ -1,0 +1,74 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VnptSmartCAFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import FinalSDK
+import Flutter
+import FlutterPluginRegistrant
+import Foundation
+import Swift
+import UIKit
+@_exported import VnptSmartCAFramework
+import _Concurrency
+import _StringProcessing
+public class VNPTSmartCASDK {
+  public enum ENVIRONMENT : Swift.Int {
+    case DEMO, PRODUCTION
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum LANG : Swift.String {
+    case VI, EN
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public init(viewController: UIKit.UIViewController, partnerId: Swift.String, environment: VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT, lang: VnptSmartCAFramework.VNPTSmartCASDK.LANG)
+  public func configSDK()
+  public func getAuthentication(callback: @escaping (VnptSmartCAFramework.SmartCAResult) -> Swift.Void)
+  public func getWaitingTransaction(tranId: Swift.String, callback: @escaping (VnptSmartCAFramework.SmartCAResult) -> Swift.Void)
+  public func getMainInfo(callback: @escaping (VnptSmartCAFramework.SmartCAResult) -> Swift.Void)
+  public func getResulteKYC()
+  public func destroySDK()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class EKYCService {
+  public func getResult()
+  @objc deinit
+}
+public struct SmartCAResult {
+  public var status: Swift.Int
+  public var statusDesc: Swift.String
+  public var data: Swift.String
+  public init(map: [Swift.String : Any?])
+}
+@_hasMissingDesignatedInitializers public class SmartCAResultCodeDesc {
+  public static var UNKNOWN_ERROR: Swift.String
+  public static var USER_CANCEL: Swift.String
+  public static var REJECTED_SUCCESS: Swift.String
+  public static var CONFIRMED_SUCCESS: Swift.String
+  public static var ENROLL_SUCCESS: Swift.String
+  public static var SUCCESS: Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SmartCAResultCode {
+  public static var UNKNOWN_ERROR_CODE: Swift.Int
+  public static var USER_CANCEL_CODE: Swift.Int
+  public static var SUCCESS_CODE: Swift.Int
+  @objc deinit
+}
+public let ENVIRONMENT_DEMO: Swift.Int
+public let ENVIRONMENT_PRODUCTION: Swift.Int
+public let LANG_EN: Swift.String
+public let LANG_VI: Swift.String
+extension VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT : Swift.Equatable {}
+extension VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT : Swift.Hashable {}
+extension VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT : Swift.RawRepresentable {}
+extension VnptSmartCAFramework.VNPTSmartCASDK.LANG : Swift.Equatable {}
+extension VnptSmartCAFramework.VNPTSmartCASDK.LANG : Swift.Hashable {}
+extension VnptSmartCAFramework.VNPTSmartCASDK.LANG : Swift.RawRepresentable {}

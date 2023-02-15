@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97F87AF71B5D9A5E5606EE33 /* Pods_PartnerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3002EF68E7F8F838F90A867 /* Pods_PartnerApp.framework */; };
+		F0ACC8F529963059006B1454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ACC8F429963059006B1454 /* AppDelegate.swift */; };
+		F0ACC8F729963059006B1454 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ACC8F629963059006B1454 /* SceneDelegate.swift */; };
+		F0ACC8F929963059006B1454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ACC8F829963059006B1454 /* ViewController.swift */; };
+		F0ACC8FC29963059006B1454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0ACC8FA29963059006B1454 /* Main.storyboard */; };
+		F0ACC8FE2996305A006B1454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0ACC8FD2996305A006B1454 /* Assets.xcassets */; };
+		F0ACC9012996305A006B1454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0ACC8FF2996305A006B1454 /* LaunchScreen.storyboard */; };
+		F0ACC909299633F2006B1454 /* vnpt_smartca_frameworks in Resources */ = {isa = PBXBuildFile; fileRef = F0ACC908299633F2006B1454 /* vnpt_smartca_frameworks */; };
+		F0ACC91F299634CA006B1454 /* FinalSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC90D299634CA006B1454 /* FinalSDK.xcframework */; };
+		F0ACC920299634CA006B1454 /* FinalSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC90D299634CA006B1454 /* FinalSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC93C29963F3C006B1454 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC90B299634CA006B1454 /* App.xcframework */; };
+		F0ACC93D29963F3C006B1454 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC90B299634CA006B1454 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC93E29963F3C006B1454 /* device_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC90C299634CA006B1454 /* device_info_plus.xcframework */; };
+		F0ACC93F29963F3C006B1454 /* device_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC90C299634CA006B1454 /* device_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC94029963F3C006B1454 /* flutter_jailbreak_detection.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC90E299634CA006B1454 /* flutter_jailbreak_detection.xcframework */; };
+		F0ACC94129963F3C006B1454 /* flutter_jailbreak_detection.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC90E299634CA006B1454 /* flutter_jailbreak_detection.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC94229963F3C006B1454 /* flutter_secure_storage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC90F299634CA006B1454 /* flutter_secure_storage.xcframework */; };
+		F0ACC94329963F3C006B1454 /* flutter_secure_storage.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC90F299634CA006B1454 /* flutter_secure_storage.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC94429963F3C006B1454 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC910299634CA006B1454 /* FlutterPluginRegistrant.xcframework */; };
+		F0ACC94529963F3C006B1454 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC910299634CA006B1454 /* FlutterPluginRegistrant.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC94629963F3C006B1454 /* IOSSecuritySuite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC911299634CA006B1454 /* IOSSecuritySuite.xcframework */; };
+		F0ACC94729963F3C006B1454 /* IOSSecuritySuite.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC911299634CA006B1454 /* IOSSecuritySuite.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC94829963F3C006B1454 /* local_auth_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC912299634CA006B1454 /* local_auth_ios.xcframework */; };
+		F0ACC94929963F3C006B1454 /* local_auth_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC912299634CA006B1454 /* local_auth_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC94A29963F3C006B1454 /* open_file_safe.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC913299634CA006B1454 /* open_file_safe.xcframework */; };
+		F0ACC94B29963F3C006B1454 /* open_file_safe.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC913299634CA006B1454 /* open_file_safe.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC94C29963F3C006B1454 /* package_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC914299634CA006B1454 /* package_info_plus.xcframework */; };
+		F0ACC94D29963F3C006B1454 /* package_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC914299634CA006B1454 /* package_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC94E29963F3C006B1454 /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC915299634CA006B1454 /* path_provider_foundation.xcframework */; };
+		F0ACC94F29963F3C006B1454 /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC915299634CA006B1454 /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC95029963F3C006B1454 /* shared_preferences_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC916299634CA006B1454 /* shared_preferences_foundation.xcframework */; };
+		F0ACC95129963F3C006B1454 /* shared_preferences_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC916299634CA006B1454 /* shared_preferences_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC95229963F3C006B1454 /* syncfusion_flutter_pdfviewer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC917299634CA006B1454 /* syncfusion_flutter_pdfviewer.xcframework */; };
+		F0ACC95329963F3C006B1454 /* syncfusion_flutter_pdfviewer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC917299634CA006B1454 /* syncfusion_flutter_pdfviewer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC95429963F3C006B1454 /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC918299634CA006B1454 /* url_launcher_ios.xcframework */; };
+		F0ACC95529963F3C006B1454 /* url_launcher_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC918299634CA006B1454 /* url_launcher_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC95629963F3C006B1454 /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC91A299634CA006B1454 /* webview_flutter_wkwebview.xcframework */; };
+		F0ACC95729963F3C006B1454 /* webview_flutter_wkwebview.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC91A299634CA006B1454 /* webview_flutter_wkwebview.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC9BE29964B69006B1454 /* VnptSmartCAFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC919299634CA006B1454 /* VnptSmartCAFramework.framework */; };
+		F0ACC9BF29964B69006B1454 /* VnptSmartCAFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACC919299634CA006B1454 /* VnptSmartCAFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0ACC9C329964CBB006B1454 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ACC9C229964CBB006B1454 /* Keyboard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0ACC93B299634CA006B1454 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F0ACC94929963F3C006B1454 /* local_auth_ios.xcframework in Embed Frameworks */,
+				F0ACC94729963F3C006B1454 /* IOSSecuritySuite.xcframework in Embed Frameworks */,
+				F0ACC95129963F3C006B1454 /* shared_preferences_foundation.xcframework in Embed Frameworks */,
+				F0ACC94B29963F3C006B1454 /* open_file_safe.xcframework in Embed Frameworks */,
+				F0ACC95729963F3C006B1454 /* webview_flutter_wkwebview.xcframework in Embed Frameworks */,
+				F0ACC95329963F3C006B1454 /* syncfusion_flutter_pdfviewer.xcframework in Embed Frameworks */,
+				F0ACC94D29963F3C006B1454 /* package_info_plus.xcframework in Embed Frameworks */,
+				F0ACC94F29963F3C006B1454 /* path_provider_foundation.xcframework in Embed Frameworks */,
+				F0ACC94129963F3C006B1454 /* flutter_jailbreak_detection.xcframework in Embed Frameworks */,
+				F0ACC920299634CA006B1454 /* FinalSDK.xcframework in Embed Frameworks */,
+				F0ACC95529963F3C006B1454 /* url_launcher_ios.xcframework in Embed Frameworks */,
+				F0ACC9BF29964B69006B1454 /* VnptSmartCAFramework.framework in Embed Frameworks */,
+				F0ACC93F29963F3C006B1454 /* device_info_plus.xcframework in Embed Frameworks */,
+				F0ACC93D29963F3C006B1454 /* App.xcframework in Embed Frameworks */,
+				F0ACC94329963F3C006B1454 /* flutter_secure_storage.xcframework in Embed Frameworks */,
+				F0ACC94529963F3C006B1454 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3752F73B53D256E30FB14A73 /* Pods-PartnerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartnerApp.release.xcconfig"; path = "Target Support Files/Pods-PartnerApp/Pods-PartnerApp.release.xcconfig"; sourceTree = "<group>"; };
+		923A88405DCAF88BD360E5B3 /* Pods-PartnerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartnerApp.debug.xcconfig"; path = "Target Support Files/Pods-PartnerApp/Pods-PartnerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D3002EF68E7F8F838F90A867 /* Pods_PartnerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PartnerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0ACC8F129963059006B1454 /* PartnerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartnerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0ACC8F429963059006B1454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0ACC8F629963059006B1454 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F0ACC8F829963059006B1454 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0ACC8FB29963059006B1454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0ACC8FD2996305A006B1454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0ACC9002996305A006B1454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0ACC9022996305A006B1454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0ACC908299633F2006B1454 /* vnpt_smartca_frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vnpt_smartca_frameworks; sourceTree = "<group>"; };
+		F0ACC90B299634CA006B1454 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = vnpt_smartca_frameworks/App.xcframework; sourceTree = "<group>"; };
+		F0ACC90C299634CA006B1454 /* device_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = device_info_plus.xcframework; path = vnpt_smartca_frameworks/device_info_plus.xcframework; sourceTree = "<group>"; };
+		F0ACC90D299634CA006B1454 /* FinalSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FinalSDK.xcframework; path = vnpt_smartca_frameworks/FinalSDK.xcframework; sourceTree = "<group>"; };
+		F0ACC90E299634CA006B1454 /* flutter_jailbreak_detection.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_jailbreak_detection.xcframework; path = vnpt_smartca_frameworks/flutter_jailbreak_detection.xcframework; sourceTree = "<group>"; };
+		F0ACC90F299634CA006B1454 /* flutter_secure_storage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_secure_storage.xcframework; path = vnpt_smartca_frameworks/flutter_secure_storage.xcframework; sourceTree = "<group>"; };
+		F0ACC910299634CA006B1454 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = vnpt_smartca_frameworks/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		F0ACC911299634CA006B1454 /* IOSSecuritySuite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IOSSecuritySuite.xcframework; path = vnpt_smartca_frameworks/IOSSecuritySuite.xcframework; sourceTree = "<group>"; };
+		F0ACC912299634CA006B1454 /* local_auth_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = local_auth_ios.xcframework; path = vnpt_smartca_frameworks/local_auth_ios.xcframework; sourceTree = "<group>"; };
+		F0ACC913299634CA006B1454 /* open_file_safe.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = open_file_safe.xcframework; path = vnpt_smartca_frameworks/open_file_safe.xcframework; sourceTree = "<group>"; };
+		F0ACC914299634CA006B1454 /* package_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = package_info_plus.xcframework; path = vnpt_smartca_frameworks/package_info_plus.xcframework; sourceTree = "<group>"; };
+		F0ACC915299634CA006B1454 /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = vnpt_smartca_frameworks/path_provider_foundation.xcframework; sourceTree = "<group>"; };
+		F0ACC916299634CA006B1454 /* shared_preferences_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = shared_preferences_foundation.xcframework; path = vnpt_smartca_frameworks/shared_preferences_foundation.xcframework; sourceTree = "<group>"; };
+		F0ACC917299634CA006B1454 /* syncfusion_flutter_pdfviewer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = syncfusion_flutter_pdfviewer.xcframework; path = vnpt_smartca_frameworks/syncfusion_flutter_pdfviewer.xcframework; sourceTree = "<group>"; };
+		F0ACC918299634CA006B1454 /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = url_launcher_ios.xcframework; path = vnpt_smartca_frameworks/url_launcher_ios.xcframework; sourceTree = "<group>"; };
+		F0ACC919299634CA006B1454 /* VnptSmartCAFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VnptSmartCAFramework.framework; path = vnpt_smartca_frameworks/VnptSmartCAFramework.framework; sourceTree = "<group>"; };
+		F0ACC91A299634CA006B1454 /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = webview_flutter_wkwebview.xcframework; path = vnpt_smartca_frameworks/webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
+		F0ACC9C229964CBB006B1454 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0ACC8EE29963059006B1454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0ACC94629963F3C006B1454 /* IOSSecuritySuite.xcframework in Frameworks */,
+				F0ACC95429963F3C006B1454 /* url_launcher_ios.xcframework in Frameworks */,
+				F0ACC94829963F3C006B1454 /* local_auth_ios.xcframework in Frameworks */,
+				F0ACC9BE29964B69006B1454 /* VnptSmartCAFramework.framework in Frameworks */,
+				F0ACC95029963F3C006B1454 /* shared_preferences_foundation.xcframework in Frameworks */,
+				F0ACC94C29963F3C006B1454 /* package_info_plus.xcframework in Frameworks */,
+				F0ACC95629963F3C006B1454 /* webview_flutter_wkwebview.xcframework in Frameworks */,
+				F0ACC94029963F3C006B1454 /* flutter_jailbreak_detection.xcframework in Frameworks */,
+				F0ACC91F299634CA006B1454 /* FinalSDK.xcframework in Frameworks */,
+				F0ACC95229963F3C006B1454 /* syncfusion_flutter_pdfviewer.xcframework in Frameworks */,
+				F0ACC94429963F3C006B1454 /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				F0ACC94E29963F3C006B1454 /* path_provider_foundation.xcframework in Frameworks */,
+				F0ACC94229963F3C006B1454 /* flutter_secure_storage.xcframework in Frameworks */,
+				F0ACC93E29963F3C006B1454 /* device_info_plus.xcframework in Frameworks */,
+				F0ACC94A29963F3C006B1454 /* open_file_safe.xcframework in Frameworks */,
+				97F87AF71B5D9A5E5606EE33 /* Pods_PartnerApp.framework in Frameworks */,
+				F0ACC93C29963F3C006B1454 /* App.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6E96BE8BC1FE26152A0ACCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				923A88405DCAF88BD360E5B3 /* Pods-PartnerApp.debug.xcconfig */,
+				3752F73B53D256E30FB14A73 /* Pods-PartnerApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0ACC8E829963059006B1454 = {
+			isa = PBXGroup;
+			children = (
+				F0ACC908299633F2006B1454 /* vnpt_smartca_frameworks */,
+				F0ACC8F329963059006B1454 /* PartnerApp */,
+				F0ACC8F229963059006B1454 /* Products */,
+				F0ACC90A299634CA006B1454 /* Frameworks */,
+				C6E96BE8BC1FE26152A0ACCA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F0ACC8F229963059006B1454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0ACC8F129963059006B1454 /* PartnerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0ACC8F329963059006B1454 /* PartnerApp */ = {
+			isa = PBXGroup;
+			children = (
+				F0ACC8F429963059006B1454 /* AppDelegate.swift */,
+				F0ACC8F629963059006B1454 /* SceneDelegate.swift */,
+				F0ACC9C229964CBB006B1454 /* Keyboard.swift */,
+				F0ACC8F829963059006B1454 /* ViewController.swift */,
+				F0ACC8FA29963059006B1454 /* Main.storyboard */,
+				F0ACC8FD2996305A006B1454 /* Assets.xcassets */,
+				F0ACC8FF2996305A006B1454 /* LaunchScreen.storyboard */,
+				F0ACC9022996305A006B1454 /* Info.plist */,
+			);
+			path = PartnerApp;
+			sourceTree = "<group>";
+		};
+		F0ACC90A299634CA006B1454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0ACC90B299634CA006B1454 /* App.xcframework */,
+				F0ACC90C299634CA006B1454 /* device_info_plus.xcframework */,
+				F0ACC90D299634CA006B1454 /* FinalSDK.xcframework */,
+				F0ACC90E299634CA006B1454 /* flutter_jailbreak_detection.xcframework */,
+				F0ACC90F299634CA006B1454 /* flutter_secure_storage.xcframework */,
+				F0ACC910299634CA006B1454 /* FlutterPluginRegistrant.xcframework */,
+				F0ACC911299634CA006B1454 /* IOSSecuritySuite.xcframework */,
+				F0ACC912299634CA006B1454 /* local_auth_ios.xcframework */,
+				F0ACC913299634CA006B1454 /* open_file_safe.xcframework */,
+				F0ACC914299634CA006B1454 /* package_info_plus.xcframework */,
+				F0ACC915299634CA006B1454 /* path_provider_foundation.xcframework */,
+				F0ACC916299634CA006B1454 /* shared_preferences_foundation.xcframework */,
+				F0ACC917299634CA006B1454 /* syncfusion_flutter_pdfviewer.xcframework */,
+				F0ACC918299634CA006B1454 /* url_launcher_ios.xcframework */,
+				F0ACC919299634CA006B1454 /* VnptSmartCAFramework.framework */,
+				F0ACC91A299634CA006B1454 /* webview_flutter_wkwebview.xcframework */,
+				D3002EF68E7F8F838F90A867 /* Pods_PartnerApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0ACC8F029963059006B1454 /* PartnerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0ACC9052996305A006B1454 /* Build configuration list for PBXNativeTarget "PartnerApp" */;
+			buildPhases = (
+				9F05EEEE0E7D9DD9D6E29999 /* [CP] Check Pods Manifest.lock */,
+				F0ACC8ED29963059006B1454 /* Sources */,
+				F0ACC8EE29963059006B1454 /* Frameworks */,
+				F0ACC8EF29963059006B1454 /* Resources */,
+				F0ACC93B299634CA006B1454 /* Embed Frameworks */,
+				098CA89D07790BEE35097018 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PartnerApp;
+			productName = PartnerApp;
+			productReference = F0ACC8F129963059006B1454 /* PartnerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0ACC8E929963059006B1454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F0ACC8F029963059006B1454 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F0ACC8EC29963059006B1454 /* Build configuration list for PBXProject "PartnerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0ACC8E829963059006B1454;
+			productRefGroup = F0ACC8F229963059006B1454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0ACC8F029963059006B1454 /* PartnerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0ACC8EF29963059006B1454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0ACC9012996305A006B1454 /* LaunchScreen.storyboard in Resources */,
+				F0ACC909299633F2006B1454 /* vnpt_smartca_frameworks in Resources */,
+				F0ACC8FE2996305A006B1454 /* Assets.xcassets in Resources */,
+				F0ACC8FC29963059006B1454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		098CA89D07790BEE35097018 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PartnerApp/Pods-PartnerApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PartnerApp/Pods-PartnerApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PartnerApp/Pods-PartnerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F05EEEE0E7D9DD9D6E29999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PartnerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0ACC8ED29963059006B1454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0ACC8F929963059006B1454 /* ViewController.swift in Sources */,
+				F0ACC8F529963059006B1454 /* AppDelegate.swift in Sources */,
+				F0ACC9C329964CBB006B1454 /* Keyboard.swift in Sources */,
+				F0ACC8F729963059006B1454 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0ACC8FA29963059006B1454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0ACC8FB29963059006B1454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0ACC8FF2996305A006B1454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0ACC9002996305A006B1454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0ACC9032996305A006B1454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0ACC9042996305A006B1454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0ACC9062996305A006B1454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923A88405DCAF88BD360E5B3 /* Pods-PartnerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MWB2Z5F59;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vnpt_smartca_frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PartnerApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PartnerApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnpt.PartnerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F0ACC9072996305A006B1454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3752F73B53D256E30FB14A73 /* Pods-PartnerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MWB2Z5F59;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vnpt_smartca_frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PartnerApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PartnerApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnpt.PartnerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0ACC8EC29963059006B1454 /* Build configuration list for PBXProject "PartnerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0ACC9032996305A006B1454 /* Debug */,
+				F0ACC9042996305A006B1454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0ACC9052996305A006B1454 /* Build configuration list for PBXNativeTarget "PartnerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0ACC9062996305A006B1454 /* Debug */,
+				F0ACC9072996305A006B1454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0ACC8E929963059006B1454 /* Project object */;
+}

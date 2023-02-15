@@ -1,0 +1,11 @@
+framework module VnptSmartCAFramework {
+  umbrella header "VnptSmartCAFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module VnptSmartCAFramework.Swift {
+  header "VnptSmartCAFramework-Swift.h"
+  requires objc
+}

@@ -1,0 +1,2596 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "FlutterPluginRegistrant",
+        "printedName": "FlutterPluginRegistrant",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VNPTSmartCASDK",
+        "printedName": "VNPTSmartCASDK",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ENVIRONMENT",
+            "printedName": "ENVIRONMENT",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "DEMO",
+                "printedName": "DEMO",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT.Type) -> VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ENVIRONMENT",
+                        "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT",
+                        "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ENVIRONMENT",
+                            "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT",
+                            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO4DEMOyA2EmF",
+                "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO4DEMOyA2EmF",
+                "moduleName": "VnptSmartCAFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "PRODUCTION",
+                "printedName": "PRODUCTION",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT.Type) -> VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ENVIRONMENT",
+                        "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT",
+                        "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ENVIRONMENT",
+                            "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT",
+                            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO10PRODUCTIONyA2EmF",
+                "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO10PRODUCTIONyA2EmF",
+                "moduleName": "VnptSmartCAFramework"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ENVIRONMENT",
+                        "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT",
+                        "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO8rawValueAESgSi_tcfc",
+                "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO8rawValueAESgSi_tcfc",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO8rawValueSivp",
+                "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO8rawValueSivp",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO8rawValueSivg",
+                    "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO8rawValueSivg",
+                    "moduleName": "VnptSmartCAFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO",
+            "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "LANG",
+            "printedName": "LANG",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "VI",
+                "printedName": "VI",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VnptSmartCAFramework.VNPTSmartCASDK.LANG.Type) -> VnptSmartCAFramework.VNPTSmartCASDK.LANG",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LANG",
+                        "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.LANG",
+                        "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.LANG.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LANG",
+                            "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.LANG",
+                            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO2VIyA2EmF",
+                "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO2VIyA2EmF",
+                "moduleName": "VnptSmartCAFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "EN",
+                "printedName": "EN",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VnptSmartCAFramework.VNPTSmartCASDK.LANG.Type) -> VnptSmartCAFramework.VNPTSmartCASDK.LANG",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LANG",
+                        "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.LANG",
+                        "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.LANG.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LANG",
+                            "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.LANG",
+                            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO2ENyA2EmF",
+                "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO2ENyA2EmF",
+                "moduleName": "VnptSmartCAFramework"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.LANG?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LANG",
+                        "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.LANG",
+                        "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO8rawValueAESgSS_tcfc",
+                "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO8rawValueAESgSS_tcfc",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO8rawValueSSvp",
+                "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO8rawValueSSvp",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO8rawValueSSvg",
+                    "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO8rawValueSSvg",
+                    "moduleName": "VnptSmartCAFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO",
+            "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewController:partnerId:environment:lang:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VNPTSmartCASDK",
+                "printedName": "VnptSmartCAFramework.VNPTSmartCASDK",
+                "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ENVIRONMENT",
+                "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.ENVIRONMENT",
+                "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11ENVIRONMENTO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LANG",
+                "printedName": "VnptSmartCAFramework.VNPTSmartCASDK.LANG",
+                "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC4LANGO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC14viewController9partnerId11environment4langACSo06UIViewG0C_SSAC11ENVIRONMENTOAC4LANGOtcfc",
+            "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC14viewController9partnerId11environment4langACSo06UIViewG0C_SSAC11ENVIRONMENTOAC4LANGOtcfc",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configSDK",
+            "printedName": "configSDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC9configSDKyyF",
+            "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC9configSDKyyF",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthentication",
+            "printedName": "getAuthentication(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VnptSmartCAFramework.SmartCAResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCAResult",
+                    "printedName": "VnptSmartCAFramework.SmartCAResult",
+                    "usr": "s:20VnptSmartCAFramework0B8CAResultV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC17getAuthentication8callbackyyAA0B8CAResultVc_tF",
+            "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC17getAuthentication8callbackyyAA0B8CAResultVc_tF",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getWaitingTransaction",
+            "printedName": "getWaitingTransaction(tranId:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VnptSmartCAFramework.SmartCAResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCAResult",
+                    "printedName": "VnptSmartCAFramework.SmartCAResult",
+                    "usr": "s:20VnptSmartCAFramework0B8CAResultV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC21getWaitingTransaction6tranId8callbackySS_yAA0B8CAResultVctF",
+            "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC21getWaitingTransaction6tranId8callbackySS_yAA0B8CAResultVctF",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMainInfo",
+            "printedName": "getMainInfo(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VnptSmartCAFramework.SmartCAResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCAResult",
+                    "printedName": "VnptSmartCAFramework.SmartCAResult",
+                    "usr": "s:20VnptSmartCAFramework0B8CAResultV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC11getMainInfo8callbackyyAA0B8CAResultVc_tF",
+            "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC11getMainInfo8callbackyyAA0B8CAResultVc_tF",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getResulteKYC",
+            "printedName": "getResulteKYC()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC13getResulteKYCyyF",
+            "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC13getResulteKYCyyF",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroySDK",
+            "printedName": "destroySDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC10destroySDKyyF",
+            "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC10destroySDKyyF",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20VnptSmartCAFramework14VNPTSmartCASDKC",
+        "mangledName": "$s20VnptSmartCAFramework14VNPTSmartCASDKC",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "FinalSDK",
+        "printedName": "FinalSDK",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EKYCService",
+        "printedName": "EKYCService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getResult",
+            "printedName": "getResult()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20VnptSmartCAFramework11EKYCServiceC9getResultyyF",
+            "mangledName": "$s20VnptSmartCAFramework11EKYCServiceC9getResultyyF",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20VnptSmartCAFramework11EKYCServiceC",
+        "mangledName": "$s20VnptSmartCAFramework11EKYCServiceC",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmartCAResult",
+        "printedName": "SmartCAResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B8CAResultV6statusSivp",
+            "mangledName": "$s20VnptSmartCAFramework0B8CAResultV6statusSivp",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B8CAResultV6statusSivg",
+                "mangledName": "$s20VnptSmartCAFramework0B8CAResultV6statusSivg",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B8CAResultV6statusSivs",
+                "mangledName": "$s20VnptSmartCAFramework0B8CAResultV6statusSivs",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B8CAResultV6statusSivM",
+                "mangledName": "$s20VnptSmartCAFramework0B8CAResultV6statusSivM",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusDesc",
+            "printedName": "statusDesc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B8CAResultV10statusDescSSvp",
+            "mangledName": "$s20VnptSmartCAFramework0B8CAResultV10statusDescSSvp",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B8CAResultV10statusDescSSvg",
+                "mangledName": "$s20VnptSmartCAFramework0B8CAResultV10statusDescSSvg",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B8CAResultV10statusDescSSvs",
+                "mangledName": "$s20VnptSmartCAFramework0B8CAResultV10statusDescSSvs",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B8CAResultV10statusDescSSvM",
+                "mangledName": "$s20VnptSmartCAFramework0B8CAResultV10statusDescSSvM",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B8CAResultV4dataSSvp",
+            "mangledName": "$s20VnptSmartCAFramework0B8CAResultV4dataSSvp",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B8CAResultV4dataSSvg",
+                "mangledName": "$s20VnptSmartCAFramework0B8CAResultV4dataSSvg",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B8CAResultV4dataSSvs",
+                "mangledName": "$s20VnptSmartCAFramework0B8CAResultV4dataSSvs",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B8CAResultV4dataSSvM",
+                "mangledName": "$s20VnptSmartCAFramework0B8CAResultV4dataSSvM",
+                "moduleName": "VnptSmartCAFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCAResult",
+                "printedName": "VnptSmartCAFramework.SmartCAResult",
+                "usr": "s:20VnptSmartCAFramework0B8CAResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20VnptSmartCAFramework0B8CAResultV3mapACSDySSypSgG_tcfc",
+            "mangledName": "$s20VnptSmartCAFramework0B8CAResultV3mapACSDySSypSgG_tcfc",
+            "moduleName": "VnptSmartCAFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20VnptSmartCAFramework0B8CAResultV",
+        "mangledName": "$s20VnptSmartCAFramework0B8CAResultV",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmartCAResultCodeDesc",
+        "printedName": "SmartCAResultCodeDesc",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "UNKNOWN_ERROR",
+            "printedName": "UNKNOWN_ERROR",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC13UNKNOWN_ERRORSSvpZ",
+            "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC13UNKNOWN_ERRORSSvpZ",
+            "moduleName": "VnptSmartCAFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC13UNKNOWN_ERRORSSvgZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC13UNKNOWN_ERRORSSvgZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC13UNKNOWN_ERRORSSvsZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC13UNKNOWN_ERRORSSvsZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC13UNKNOWN_ERRORSSvMZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC13UNKNOWN_ERRORSSvMZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "USER_CANCEL",
+            "printedName": "USER_CANCEL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC11USER_CANCELSSvpZ",
+            "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC11USER_CANCELSSvpZ",
+            "moduleName": "VnptSmartCAFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC11USER_CANCELSSvgZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC11USER_CANCELSSvgZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC11USER_CANCELSSvsZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC11USER_CANCELSSvsZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC11USER_CANCELSSvMZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC11USER_CANCELSSvMZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "REJECTED_SUCCESS",
+            "printedName": "REJECTED_SUCCESS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC16REJECTED_SUCCESSSSvpZ",
+            "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC16REJECTED_SUCCESSSSvpZ",
+            "moduleName": "VnptSmartCAFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC16REJECTED_SUCCESSSSvgZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC16REJECTED_SUCCESSSSvgZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC16REJECTED_SUCCESSSSvsZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC16REJECTED_SUCCESSSSvsZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC16REJECTED_SUCCESSSSvMZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC16REJECTED_SUCCESSSSvMZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CONFIRMED_SUCCESS",
+            "printedName": "CONFIRMED_SUCCESS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC17CONFIRMED_SUCCESSSSvpZ",
+            "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC17CONFIRMED_SUCCESSSSvpZ",
+            "moduleName": "VnptSmartCAFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC17CONFIRMED_SUCCESSSSvgZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC17CONFIRMED_SUCCESSSSvgZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC17CONFIRMED_SUCCESSSSvsZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC17CONFIRMED_SUCCESSSSvsZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC17CONFIRMED_SUCCESSSSvMZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC17CONFIRMED_SUCCESSSSvMZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ENROLL_SUCCESS",
+            "printedName": "ENROLL_SUCCESS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC14ENROLL_SUCCESSSSvpZ",
+            "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC14ENROLL_SUCCESSSSvpZ",
+            "moduleName": "VnptSmartCAFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC14ENROLL_SUCCESSSSvgZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC14ENROLL_SUCCESSSSvgZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC14ENROLL_SUCCESSSSvsZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC14ENROLL_SUCCESSSSvsZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC14ENROLL_SUCCESSSSvMZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC14ENROLL_SUCCESSSSvMZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SUCCESS",
+            "printedName": "SUCCESS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC7SUCCESSSSvpZ",
+            "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC7SUCCESSSSvpZ",
+            "moduleName": "VnptSmartCAFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC7SUCCESSSSvgZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC7SUCCESSSSvgZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC7SUCCESSSSvsZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC7SUCCESSSSvsZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC7SUCCESSSSvMZ",
+                "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC7SUCCESSSSvMZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20VnptSmartCAFramework0B16CAResultCodeDescC",
+        "mangledName": "$s20VnptSmartCAFramework0B16CAResultCodeDescC",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmartCAResultCode",
+        "printedName": "SmartCAResultCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "UNKNOWN_ERROR_CODE",
+            "printedName": "UNKNOWN_ERROR_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC18UNKNOWN_ERROR_CODESivpZ",
+            "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC18UNKNOWN_ERROR_CODESivpZ",
+            "moduleName": "VnptSmartCAFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC18UNKNOWN_ERROR_CODESivgZ",
+                "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC18UNKNOWN_ERROR_CODESivgZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC18UNKNOWN_ERROR_CODESivsZ",
+                "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC18UNKNOWN_ERROR_CODESivsZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC18UNKNOWN_ERROR_CODESivMZ",
+                "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC18UNKNOWN_ERROR_CODESivMZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "USER_CANCEL_CODE",
+            "printedName": "USER_CANCEL_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC16USER_CANCEL_CODESivpZ",
+            "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC16USER_CANCEL_CODESivpZ",
+            "moduleName": "VnptSmartCAFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC16USER_CANCEL_CODESivgZ",
+                "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC16USER_CANCEL_CODESivgZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC16USER_CANCEL_CODESivsZ",
+                "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC16USER_CANCEL_CODESivsZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC16USER_CANCEL_CODESivMZ",
+                "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC16USER_CANCEL_CODESivMZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SUCCESS_CODE",
+            "printedName": "SUCCESS_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC12SUCCESS_CODESivpZ",
+            "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC12SUCCESS_CODESivpZ",
+            "moduleName": "VnptSmartCAFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC12SUCCESS_CODESivgZ",
+                "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC12SUCCESS_CODESivgZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC12SUCCESS_CODESivsZ",
+                "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC12SUCCESS_CODESivsZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC12SUCCESS_CODESivMZ",
+                "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC12SUCCESS_CODESivMZ",
+                "moduleName": "VnptSmartCAFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20VnptSmartCAFramework0B12CAResultCodeC",
+        "mangledName": "$s20VnptSmartCAFramework0B12CAResultCodeC",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework"
+      },
+      {
+        "kind": "Var",
+        "name": "ENVIRONMENT_DEMO",
+        "printedName": "ENVIRONMENT_DEMO",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:20VnptSmartCAFramework16ENVIRONMENT_DEMOSivp",
+        "mangledName": "$s20VnptSmartCAFramework16ENVIRONMENT_DEMOSivp",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20VnptSmartCAFramework16ENVIRONMENT_DEMOSivg",
+            "mangledName": "$s20VnptSmartCAFramework16ENVIRONMENT_DEMOSivg",
+            "moduleName": "VnptSmartCAFramework",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "ENVIRONMENT_PRODUCTION",
+        "printedName": "ENVIRONMENT_PRODUCTION",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:20VnptSmartCAFramework22ENVIRONMENT_PRODUCTIONSivp",
+        "mangledName": "$s20VnptSmartCAFramework22ENVIRONMENT_PRODUCTIONSivp",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20VnptSmartCAFramework22ENVIRONMENT_PRODUCTIONSivg",
+            "mangledName": "$s20VnptSmartCAFramework22ENVIRONMENT_PRODUCTIONSivg",
+            "moduleName": "VnptSmartCAFramework",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "LANG_EN",
+        "printedName": "LANG_EN",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:20VnptSmartCAFramework7LANG_ENSSvp",
+        "mangledName": "$s20VnptSmartCAFramework7LANG_ENSSvp",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20VnptSmartCAFramework7LANG_ENSSvg",
+            "mangledName": "$s20VnptSmartCAFramework7LANG_ENSSvg",
+            "moduleName": "VnptSmartCAFramework",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "LANG_VI",
+        "printedName": "LANG_VI",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:20VnptSmartCAFramework7LANG_VISSvp",
+        "mangledName": "$s20VnptSmartCAFramework7LANG_VISSvp",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20VnptSmartCAFramework7LANG_VISSvg",
+            "mangledName": "$s20VnptSmartCAFramework7LANG_VISSvg",
+            "moduleName": "VnptSmartCAFramework",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VnptSmartCAFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 14,
+      "value": "\"vnpt_smartca\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 544,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 560,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 544,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 560,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 544,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 560,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 4,
+      "value": "\"vi\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 4,
+      "value": "\"vi\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/EKYCMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 12,
+      "value": "\"configeKYC\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/EKYCMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 10,
+      "value": "\"eKYCFull\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/EKYCMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 10,
+      "value": "\"ocrFront\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/EKYCMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 9,
+      "value": "\"ocrBack\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/EKYCMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 17,
+      "value": "\"ocrFrontAndBack\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/EKYCMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 13,
+      "value": "\"compareFace\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/EKYCMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 12,
+      "value": "\"verifyFace\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 15,
+      "value": "\"UNKNOWN_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 551,
+      "length": 13,
+      "value": "\"USER_CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 18,
+      "value": "\"REJECTED_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 19,
+      "value": "\"CONFIRMED_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 16,
+      "value": "\"ENROLL_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 779,
+      "length": 9,
+      "value": "\"SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 869,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 913,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 953,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 19,
+      "value": "\"getAuthentication\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1079,
+      "length": 25,
+      "value": "\"getAuthenticationResult\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1150,
+      "length": 23,
+      "value": "\"getWaitingTransaction\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1220,
+      "length": 29,
+      "value": "\"getWaitingTransactionResult\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1290,
+      "length": 18,
+      "value": "\"registrationInfo\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1350,
+      "length": 24,
+      "value": "\"registrationInfoResult\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1410,
+      "length": 13,
+      "value": "\"getMainInfo\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1460,
+      "length": 19,
+      "value": "\"getMainInfoResult\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1517,
+      "length": 15,
+      "value": "\"showEContract\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1566,
+      "length": 16,
+      "value": "\"signedContract\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
+      "length": 12,
+      "value": "\"activeEKYC\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1664,
+      "length": 12,
+      "value": "\"userCancel\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1703,
+      "length": 24,
+      "value": "\"VNPTSmartCASDK#isReady\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/SmartCAResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1756,
+      "length": 22,
+      "value": "\"VNPTSmartCASDK#start\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 35,
+      "value": "\"vnpt.plugins.io\/smartca_messaging\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 8,
+      "value": "\"tranId\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 10,
+      "value": "\"clientId\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 6,
+      "value": "\"lang\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 5,
+      "value": "\"env\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 440,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 473,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 4,
+      "value": "\"vi\""
+    },
+    {
+      "filePath": "\/Users\/phamtu\/Desktop\/eGOV.PM1.VNPTCASignService\/host_vnpt_smartca_sdk\/host_ios\/host_ios\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 26,
+      "value": "\"<VNPT SmartCA SDK LOG>: \""
+    }
+  ]
+}
